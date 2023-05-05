@@ -1,3 +1,6 @@
 creating the file1
+<<<<<<< HEAD
 edit 1st file1
 enter 3rd commit on file1
+=======
+>>>>>>> 4efde14 (commit the file1,2,3)
