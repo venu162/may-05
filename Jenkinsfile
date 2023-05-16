@@ -22,5 +22,11 @@ pipeline {
                 sh 'java -jar /var/lib/jenkins/workspace/tomcat9/testing.jar'
             }
         }
+        stage('continuous Delivary'){
+            steps{
+            input message: 'waiting for Approval from the DM', submitter: 'spider'
+
+            }
+        }
     }
 }
